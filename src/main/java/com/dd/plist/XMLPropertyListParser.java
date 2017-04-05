@@ -64,7 +64,7 @@ public class XMLPropertyListParser {
             FACTORY.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
         } catch (ParserConfigurationException e) {
         }
-        FACTORY.setXIncludeAware(false);
+        // FACTORY.setXIncludeAware(false);
         FACTORY.setExpandEntityReferences(false);
         FACTORY.setNamespaceAware(false);
         FACTORY.setIgnoringComments(true);
